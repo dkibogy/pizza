@@ -1,0 +1,11 @@
+section {
+    background-image: url(/images/slice.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
