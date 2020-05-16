@@ -9,3 +9,15 @@ section {
 h1 {
     text-align: center;
 }
+#toggleFood {
+    display: none;
+    text-align: center;
+}
+#toggleCustomer {
+    display: none;
+    text-align: center;
+}
+#toggleDelivery {
+    display: none;
+    text-align: center;
+}
