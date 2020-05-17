@@ -21,3 +21,11 @@ h1 {
     display: none;
     text-align: center;
 }
+#services {
+    text-align: center;
+    font-size: 75%;
+}
+#card1, #card2,
+#card3 {
+    size: contain;
+}
