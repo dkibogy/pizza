@@ -44,9 +44,6 @@ $(document).ready(function(){
     });
 })
 switch (psize) {
-    case "0":
-        price =0; 
-        break;
     case "large":
         price = 1000;
         console.log(price);
@@ -59,5 +56,21 @@ switch (psize) {
         price = 500;
         console.log(price);
     default:
-        console.log("invalid option")
+        console.log("invalid option");
+}
+switch (pcrust) {
+    case "Thin Crust":
+        crustprice = 0;
+        break;
+    case "Thick Crust":
+        crustprice = 200;
+        break;
+    case "Deep Crust":
+        crustprice = 300;
+        break;
+    case "Cheesy Crust":
+        crustprice = 500;
+        break;
+    default:
+        console.log("no price");
 }
