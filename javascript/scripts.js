@@ -34,3 +34,12 @@ class orderpizza {
     }
 }
 
+// the order form user interface logic
+$(document).ready(function(){
+    $("button.proceed").click(function(event){
+        let ptype = $("#type option:selected").val();
+        let psize = $("#size option:selected").val();
+        let pcrust = $("#crust option:selected").val();
+        let ptoppings = $("#toppings option:selected").val();
+    });
+})
