@@ -167,5 +167,14 @@ checkoutTotal = checkoutTotal + total;
 
 //A constructor is a function that can be invoked using the new keyword to create new objects. 
 var addOrder = new orderpizza(ptype, psize, pcrust, ptoppings, total);
-$(#selectedOrders).append('<tr><td id="pizzaType">'+addOrder.type)+'</td><td id="pizzaSize">'+addOrder.size +'</td><td id="pizzaCrust">' +addOrder.crust + '</td><td id="pizzaToppings">'+addOrder.toppings+ '</td><td id="total">'+addOrder.total'</td></tr>');
-console.log(addOrder)
+$("#selectedOrders").append('<tr><td id="pizzaType">'+addOrder.type+'</td><td id="pizzaSize">'+addOrder.size +'</td><td id="pizzaCrust">' +addOrder.crust + '</td><td id="pizzaToppings">'+addOrder.toppings+ '</td><td id="total">'+addOrder.total+'</td></tr>');
+console.log(addOrder);
+
+$("button#checkout").click(function(){ 
+    $("button#checkout").hide();
+    $("button.addPizza").hide();
+    $("button.deliver").slideDown(1000);
+    $("#addedprice").slideDown(1000);
+    console.log("Your total bills is sh. "+checkoutTotal);
+    $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
+  });
