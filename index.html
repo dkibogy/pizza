@@ -131,12 +131,38 @@
                                     <th scope="col">Total</th>
                                 </tr>
                             </thead>
+                            <tbody id="seletedOrders">
+                                <tr>
+                                    <td id="pizzaName"></td>
+                                    <td id="pizzaSize"></td>
+                                    <td id="pizzaCrust"></td>
+                                    <td id="pizzaToppings"></td>
+                                    <td id="total"></td>
+                                </tr>
+                            </tbody>
                         </table>
+                        <p id="pizzatotal"></p>
+                        <p id="totalbill"></p>
+                        <p id="deliveryfee">Delivery fee starts at sh. 250</p>
+                        <p id="message"></p>
                     </div>
+                    <button class="btn btn-secondary">Add on Pizza</button>
+                    <button class="btn btn-secondary">Checkout</button>
+                    <button class="btn btn-secondary">Delivery</button>
+                </div>
+                <div class="delivery">
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                            <input type="number" id="phone"class="form-control mb-3" placeholder="Phone Number">
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Location">
+                            <button class="btn btn-primary" id="finaltotal">Place Order</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        
+  <!--Footer-->      
 
    
    </body>
