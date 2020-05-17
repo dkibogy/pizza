@@ -1,3 +1,6 @@
+html, body {
+    font-family: serif;
+}
 section {
     background-image: url(/images/slice.jpg);
     height: 100vh;
