@@ -10,7 +10,28 @@ html, body {
     box-shadow: 2px 2px 12px rgba(0,0,0,0.20);
 }
 .navigation-content {
-    height: 60px
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 72px;
+    line-height: 72px;
+    vertical-align: middle;
+
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li a{
+    padding: 0px 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
 }
 section {
     background-image: url(/images/slice.jpg);
