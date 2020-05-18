@@ -8,9 +8,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="javascript/scripts.js"></script>
       <title>DAISY PIZZAS</title>
-   </head>
+</head>
 <body>
     <section class="Jumbotron Jumbotron-fluid">
         <h1 class="display-4">Pizza Express</h1>
@@ -80,30 +79,30 @@
             <div class="row">
                 <div class="col-sm-5">
                     <form action ="">
-                        <label for="select">Choose your Pizza</label>
+                        <label for="type">Choose your Pizza</label>
                         <select class="browser-default custom-select-md mb-3" id="type">
-                            <option value="" disabled selected>Pizza Type</option>
+                            <option disabled selected>Pizza Type</option>
                             <option value="Pepperoni">Pepperoni</option>
-                            <option value="">Chicken and Macon</option>
-                            <option value="">BBQ steak</option>
-                            <option value="">Veggie Delight</option>
-                            <option value="">Four Cheese</option>
-                            <option value="">Ham and Cheese</option>
+                            <option value="chicken">Chicken and Macon</option>
+                            <option value="BBQ">BBQ steak</option>
+                            <option value="veggie">Veggie Delight</option>
+                            <option value="Cheese">Four Cheese</option>
+                            <option value="Ham">Ham and Cheese</option>
                         </select>
-                        <label for="select">Choose your Size</label>
+                        <label for="size">Choose your Size</label>
                         <select class="browser-default custom-select-md mb-3" id="size">
-                            <option value="" disabled selected>Pizza Size</option>
-                            <option value="">Large -- Ksh 1000</option>
-                            <option value="">Medium -- Ksh 800</option>
-                            <option value="">Small -- Ksh 500</option>
+                            <option  disabled selected>Pizza Size</option>
+                            <option value="large">Large -- Ksh 1000</option>
+                            <option value="medium">Medium -- Ksh 800</option>
+                            <option value="Small">Small -- Ksh 500</option>
                         </select>
                         <label for="crust">Choose your crust</label>
                         <select class="browser-default custom-select-md mb-3" id="crust">
                             <option value="" disabled selected>Crust type</option>
-                            <option value="">Thin Crust</option>
-                            <option value="">Thick Crust -- Ksh 200</option>
-                            <option value="">Deep Crust -- Ksh 300</option>
-                            <option value="">Cheesy Crust -- Ksh 500</option>
+                            <option value="thin">Thin Crust</option>
+                            <option value="thick">Thick Crust -- Ksh 200</option>
+                            <option value="deep">Deep Crust -- Ksh 300</option>
+                            <option value="cheesy">Cheesy Crust -- Ksh 500</option>
                         </select>
                         <label for="toppings">Add on toppings</label>
                         <select class="browser-default custom-select-md mb-3" id="toppings">
@@ -121,7 +120,7 @@
                 <div class="choice">
                     <h2>Your Order:</h2>
                     <div id="yorder">
-                        <table class="table table-sm">
+                        <table class="table table-sm pizzatable">
                             <thead>
                                 <tr>
                                     <th scope="col">Type</th>
@@ -164,7 +163,7 @@
         </div>
   <!--Footer-->      
 
-   
+     <script src="javascript/scripts.js"></script>
    </body>
 	
 </html>

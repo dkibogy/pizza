@@ -32,3 +32,9 @@ h1 {
 #card3 {
     size: contain;
 }
+#order {
+    background-image: url(/images/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
