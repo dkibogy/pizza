@@ -1,4 +1,3 @@
-
 // the order form user interface logic
 $(document).ready(function(){
     $('.summary').hide();
@@ -70,46 +69,46 @@ $(document).ready(function(){
                     case size = "small":
                         price = 500;
                         if (crust === "thin") {
-                            totalPrice === (price * another);
+                            totalPrice = (price * another);
                         }
                         else if (crust === "thick") {
-                            totalPrice === (price * another) + 200;
+                            totalPrice = (price * another) + 200;
                         }
                         else if (crust === "deep") {
-                            totalPrice === (price * another) + 300;
+                            totalPrice = (price * another) + 300;
                         }
                         else if (crust === "cheesy") {
-                            totalPrice === (price * another) + 500;
+                            totalPrice = (price * another) + 500;
                         }
                         break;
                     case size = "medium":
                         price = 800;
                         if (crust === "thin") {
-                            totalPrice === (price * another);
+                            totalPrice = (price * another);
                         }
                         else if (crust === "thick") {
-                            totalPrice === (price * another) + 200;
+                            totalPrice = (price * another) + 200;
                         }
                         else if (crust === "deep") {
-                            totalPrice === (price * another) + 300;
+                            totalPrice = (price * another) + 300;
                         }
                         else if (crust === "cheesy") {
-                            totalPrice === (price * another) + 500;
+                            totalPrice = (price * another) + 500;
                         }
                         break;
                     case size = "large":
                         price = 1000;
                         if (crust === "thin") {
-                            totalPrice === (price * another);
+                            totalPrice = (price * another);
                         }
                         else if (crust === "thick") {
-                            totalPrice === (price * another) + 200;
+                            totalPrice = (price * another) + 200;
                         }
                         else if (crust === "deep") {
-                            totalPrice === (price * another) + 300;
+                            totalPrice = (price * another) + 300;
                         }
                         else if (crust === "cheesy") {
-                            totalPrice === (price * another) + 500;
+                            totalPrice = (price * another) + 500;
                         }
                         break;
                     }
@@ -119,46 +118,46 @@ $(document).ready(function(){
                         case size = "small":
                             price = 500;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                         case size = "medium":
                             price = 800;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                         case size = "large":
                             price = 1000;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                     }
@@ -168,46 +167,46 @@ $(document).ready(function(){
                             case size = "small":
                                 price = 500;
                                 if (crust === "thin") {
-                                    totalPrice === (price * another);
+                                    totalPrice = (price * another);
                                 }
                                 else if (crust === "thick") {
-                                    totalPrice === (price * another) + 200;
+                                    totalPrice = (price * another) + 200;
                                 }
                                 else if (crust === "deep") {
-                                    totalPrice === (price * another) + 300;
+                                    totalPrice = (price * another) + 300;
                                 }
                                 else if (crust === "cheesy") {
-                                    totalPrice === (price * another) + 500;
+                                    totalPrice = (price * another) + 500;
                                 }
                                 break;
                             case size = "medium":
                                 price = 800;
                                 if (crust === "thin") {
-                                    totalPrice === (price * another);
+                                    totalPrice = (price * another);
                                 }
                                 else if (crust === "thick") {
-                                    totalPrice === (price * another) + 200;
+                                    totalPrice = (price * another) + 200;
                                 }
                                 else if (crust === "deep") {
-                                    totalPrice === (price * another) + 300;
+                                    totalPrice = (price * another) + 300;
                                 }
                                 else if (crust === "cheesy") {
-                                    totalPrice === (price * another) + 500;
+                                    totalPrice = (price * another) + 500;
                                 }
                                 break;
                             case size = "large":
                                 price = 1000;
                                 if (crust === "thin") {
-                                    totalPrice === (price * another);
+                                    totalPrice = (price * another);
                                 }
                                 else if (crust === "thick") {
-                                    totalPrice === (price * another) + 200;
+                                    totalPrice = (price * another) + 200;
                                 }
                                 else if (crust === "deep") {
-                                    totalPrice === (price * another) + 300;
+                                    totalPrice = (price * another) + 300;
                                 }
                                 else if (crust === "cheesy") {
-                                    totalPrice === (price * another) + 500;
+                                    totalPrice = (price * another) + 500;
                                 }
                                 break;
                      }
@@ -217,46 +216,46 @@ $(document).ready(function(){
                         case size = "small":
                             price = 500;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                         case size = "medium":
                             price = 800;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                         case size = "large":
                             price = 1000;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                     }
@@ -266,46 +265,46 @@ $(document).ready(function(){
                         case size = "small":
                             price = 500;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                         case size = "medium":
                             price = 800;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                         case size = "large":
                             price = 1000;
                             if (crust === "thin") {
-                                totalPrice === (price * another);
+                                totalPrice = (price * another);
                             }
                             else if (crust === "thick") {
-                                totalPrice === (price * another) + 200;
+                                totalPrice = (price * another) + 200;
                             }
                             else if (crust === "deep") {
-                                totalPrice === (price * another) + 300;
+                                totalPrice = (price * another) + 300;
                             }
                             else if (crust === "cheesy") {
-                                totalPrice === (price * another) + 500;
+                                totalPrice = (price * another) + 500;
                             }
                             break;
                     }
