@@ -10,9 +10,6 @@ This is a web application that allows users to order pizzas using the order form
 
 Daisy Kibogy.
 
-### ScreenShot.
-
-![Alt text](/landing.jpg)
 ## Technologies
 - HTML5
 - CSS
