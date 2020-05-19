@@ -11,150 +11,201 @@
       <title>DAISY PIZZAS</title>
 </head>
 <body>
-    <div class="navigation-container">
+    <nav class="navigation-container">
+        <h1> Pizza Express!!!</h1>
         <div class="navigation-content">
-            <div class="logo">
-                <img src="/images/logo.jpg">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">OUR STORY</a></li>
-                    <li><a href="#">LOCATIONS</a></li>
-                </ul>
-            </div>
+            <ul class="items">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
         </div>
-    </div>
-    <section class="Jumbotron Jumbotron-fluid">
-        <h1 class="display-4">Pizza Express</h1>
-        <p class="lead">Italian pizza right at your door!</p>
-    </section>
-    <br>
-    <br>
-    <div class="container" id="services">
-        <h1>About Us and Our Services</h1>
-        <div class="container">
-            <div class="row4">
-                <div class="col-lg-4 col-md-4 col-sm-12 main">
-                    <p id="inlineFood"><img id="foodLogo" src="/images/qualityfood.jpg" class="img-fluid">Quality Food and Products</p>
-                    <div class="" id="toggleFood">
-                        <h2>Quality Food Products</h2>
-                        <p>Our pizza is made using the best quality products that Kenya offers to provide you with the best taste and quality in the market. It is sourced from responsible, verified farmers and using fair trade act trade for products that are imported.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 main">
-                    <div id="inlineCustomer"><img id="customerLogo" src="/images/customer.jpg" class="img-fluid">Customer Service Satisfaction</div>
-                    <div id="toggleCustomer">
-                        <h2>Premium Customer Service</h2>
-                        <p>We at Pizza Express offer the best customer service with quick responses to quieries, over the counter assistance and a smile at every service.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 main">
-                    <p id="inlineDelivery"><img id="deliveryLogo" src="/images/deliveryicon.jpg" class="img-fluid">Delivery Services</p>
-                    <div id="toggleDelivery">
-                        <h2>Fast and Effective Delivery Services.</h2>
-                        <p>We have patnered with local delivery services such as jumia and glovo. In addition, we have our own riders who are able to deliver food at your doorstep depending on your location.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <!--Our Pizza Selection-->
+    </nav>
+    <!--End Navigation-->
     
-    <!--Order Form-->
-    <div class="container-fluid" id="order">
-        <div class="order-overlay">
-            <div class="controls-top text-center" id="makeorder">
-                <h2>Order Form Below</h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-5">
-                    <form action ="">
-                        <label for="type">Choose your Pizza</label>
-                        <select class="browser-default custom-select-md mb-3" id="type">
-                            <option disabled selected>Pizza Type</option>
-                            <option selected value="Pepperoni">Pepperoni</option>
-                            <option selected value="chicken">Chicken and Macon</option>
-                            <option selected value="BBQ">BBQ steak</option>
-                            <option selected value="veggie">Veggie Delight</option>
-                            <option selected value="Cheese">Four Cheese</option>
-                            <option selected value="Ham">Ham and Cheese</option>
-                        </select>
-                        <label for="size">Choose your Size</label>
-                        <select class="browser-default custom-select-md mb-3" id="size">
-                            <option  disabled selected>Pizza Size</option>
-                            <option selected value="large">Large -- Ksh 1000</option>
-                            <option selected value="medium">Medium -- Ksh 800</option>
-                            <option selected value="Small">Small -- Ksh 500</option>
-                        </select>
-                        <label for="crust">Choose your crust</label>
-                        <select class="browser-default custom-select-md mb-3" id="crust">
-                            <option value="" disabled selected>Crust type</option>
-                            <option selected value="thin">Thin Crust</option>
-                            <option selected value="thick">Thick Crust -- Ksh 200</option>
-                            <option selected value="deep">Deep Crust -- Ksh 300</option>
-                            <option selected value="cheesy">Cheesy Crust -- Ksh 500</option>
-                        </select>
-                        <label for="toppings">Add on toppings</label>
-                        <select class="browser-default custom-select-md mb-3" id="toppings">
-                            <option value="" disabled selected>Toppings</option>
-                            <option selected value="">Bacon -- Ksh 50</option>
-                            <option selected value="">Sausage -- Ksh 50</option>
-                            <option selected value="">Extra Cheese -- Ksh 50</option>
-                            <option selected value="">Olives -- Ksh 50</option>
-                        </select>
-                        <br>
-                        <br>
-                        <button type="submit" class="btn btn-secondary proceed">Next</button>
-                    </form>
-                </div>
-                <div class="choice">
-                    <h2>Your Order:</h2>
-                    <div id="yorder">
-                        <table class="table table-sm pizzatable">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Type</th>
-                                    <th scope="col">size</th>
-                                    <th scope="col">Crust</th>
-                                    <th scope="col">Toppings</th>
-                                    <th scope="col">Total</th>
-                                </tr>
-                            </thead>
-                            <tbody id="seletedOrders">
-                                <tr>
-                                    <td id="pizzaType"></td>
-                                    <td id="pizzaSize"></td>
-                                    <td id="pizzaCrust"></td>
-                                    <td id="pizzaToppings"></td>
-                                    <td id="total"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <p id="pizzatotal"></p>
-                        <p id="totalbill"></p>
-                        <p id="deliveryfee">Delivery fee starts at sh. 250</p>
-                        <p id="message"></p>
-                    </div>
-                    <button class="btn btn-secondary addPizza">Add on Pizza</button>
-                    <button class="btn btn-secondary" id="Checkout">Checkout</button>
-                    <button class="btn btn-secondary deliver">Delivery</button>
-                </div>
-                <div class="delivery">
-                    <form action="">
-                        <div class="form-group">
-                            <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                            <input type="number" id="phone"class="form-control mb-3" placeholder="Phone Number">
-                            <input type="text" id="address" class="form-control mb-3" placeholder="Location">
-                            <button class="btn btn-primary" id="finaltotal">Place Order</button>
-                        </div>
-                    </form>
-                </div>
+    
+    <!--Start Landing-->
+    <div class="landing">
+        <div class="overlay">
+            <div id="push"></div>
+            <div class="landing-text">
+                <h1 class="text-center">Pizza Chap Chap!</h1>
+                <h2 class="text-center">Get it hot, fresh and Tasty!</h2>
             </div>
         </div>
-  <!--Footer-->      
+    </div>
+    <!--End Landing-->
+    
+    <!--Welcome Section-->
+    
+    
+    <!--Start Content-->
+    
+    
+    
+    <div class="orders" id="order">
+        <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 order-overlay text-center">
+                <form class="col-sm-6 offset-sm-3 text-center">
+                    <label>Pick your pizza Flavour:</label>
+                    <select class="custom-select-md mb-3" id="type">
+                        <option disabled selected>Pizza Type</option>
+                        <option selected value="Pepperoni">Pepperoni</option>
+                        <option selected value="chicken">Chicken and Macon</option>
+                        <option selected value="BBQ">BBQ steak</option>
+                        <option selected value="veggie">Veggie Delight</option>
+                        <option selected value="Cheese">Four Cheese</option>
+                        <option selected value="Ham">Ham and Cheese</option>
+                    </select>
+                    <label>Chose your preferred Size:</label>
+                    <select class="custom-select-md mb-3" id="size">
+                        <option  disabled selected>Pizza Size</option>
+                        <option selected value="large">Large -- Ksh 1000</option>
+                        <option selected value="medium">Medium -- Ksh 800</option>
+                        <option selected value="Small">Small -- Ksh 500</option>
+                    </select>
+                    <label for="crust">Choose your favorite Crust:</label>
+                    <select class="custom-select-md mb-3" id="crust">
+                        <option value="" disabled selected>Crust type</option>
+                        <option selected value="thin">Thin Crust</option>
+                        <option selected value="thick">Thick Crust -- Ksh 200</option>
+                        <option selected value="deep">Deep Crust -- Ksh 300</option>
+                        <option selected value="cheesy">Cheesy Crust -- Ksh 500</option>
+                    </select>
+                    <label>Select Your favourite Toppings</label>
+                    <select class=" custom-select-md mb-3" id="toppings">
+                        <option value="" disabled selected>Toppings</option>
+                        <option selected value="">Bacon -- Ksh 50</option>
+                        <option selected value="">Sausage -- Ksh 50</option>
+                        <option selected value="">Extra Cheese -- Ksh 50</option>
+                        <option selected value="">Olives -- Ksh 100</option>
+                    <label for="another">Number of Pizza's</label>
+                    <input type="number" class="form-control" id="another" placeholder="Number of pizzas">
+    
+    
+                </form>
+                <a href="#summary">
+                    <button type="submit" class="btn btn-success checkout" id="checkout">
+                        Checkout
+                    </button>
+                </a>
+    
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="order-summary" id="sum-order">
+            <h1 class="text-center" id="summary">Order Summary</h1>
+            <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+            <ol id="list" class="text-center sum">
+            </ol>
+        
+        
+            <div class="cdata-overlay">
+                <div class="customerdata row">
+                    <div class="col-sm-3"></div>
+                    <form action="" class="form-group col-sm-6 data">
+                        <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                        <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                        <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                        <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                    </form>
+        
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+            <div class="d-block mx-auto text-center">
+                <button class='deliver'>Make Delivery</button>
+                <button class='delivernot'>Pick Up</button>
+            </div>
+        </div>
+    </div>
+       
+  <!--Footer-->
+  <footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: Pizza Express</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+        
 
      <script src="javascript/scripts.js"></script>
    </body>
